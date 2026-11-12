@@ -1,8 +1,9 @@
 <?PHP
-$discount = 0.15;
-$applyDiscount = fn($price) => $price = $price - ($price * $discount);
 
+require "jdf.php";
 
-echo $applyDiscount(200000);
+echo jdate("y-m-d") . "\n";
+
+echo jdate("H:i:s") . "\n";
 ?>
 
